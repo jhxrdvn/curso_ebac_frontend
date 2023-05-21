@@ -1,0 +1,148 @@
+/* BOX-SIZING */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body > header {
+    background-color: #2f3640;
+    padding: 16px 0;
+    color: #f5f6fa;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+    
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: auto;
+}
+header li a {
+    color: #f5f6fa;
+    text-decoration: none;
+    padding: 8px;
+    display: inline-block;
+}
+
+header li a:hover {
+    color: #f5f6fa;
+    text-decoration: none;
+    text-decoration: underline;
+    display: inline-block;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: blue;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin: top 8px;
+
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+
+}
+
+/*personalização esportes*/
+
+#sports {
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+#sports .articles article a {
+    background-color: rgba(0, 255, 0, 0.8);
+}
+
+#sports .articles article a {
+    background-color: #009432;
+}
+
+/*personalização economia*/
+
+#economy {
+    background-color: #f8f59f;
+}
+
+#economy .articles article a {
+    background-color: #ff9f1a;
+}
+
+/*personalização tecnologia */
+
+#technology {
+    background-color: rgba(230, 230, 250, 1);
+}
+
+#technology .articles a {
+    background-color: rgb(164, 97, 226)
+}
+
+/*personalização entretenimento */
+
+#entertainment {
+    background-color: rgba(210, 250, 250, 1);
+}
+
+#entertainment .articles a {
+    background-color: rgb(82, 175, 175);
+}
